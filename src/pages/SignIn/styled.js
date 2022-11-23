@@ -19,22 +19,24 @@ export const Form = styled.form`
 
   > h1 {
     font-size: 48px;
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 
   > h2 {
     font-size: 24px;
     margin: 48px 0;
+    align-self: flex-start;
   }
 
   > p {
     font-size: 14px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
+    align-self: flex-start;
   }
 
   > a {
     margin-top: 124px;
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 `;
 
