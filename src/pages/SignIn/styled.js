@@ -30,12 +30,11 @@ export const Form = styled.form`
 
   > p {
     font-size: 14px;
-    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    color: ${({ theme }) => theme.COLORS.GRAY_300};
     align-self: flex-start;
   }
 
   > a {
-    margin-top: 124px;
     color: ${({ theme }) => theme.COLORS.PINK};
   }
 `;

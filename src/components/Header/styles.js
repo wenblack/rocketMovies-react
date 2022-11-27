@@ -27,8 +27,8 @@ export const Profile = styled(Link)`
   > div {
     display: flex;
     flex-direction: column;
-    margin-left: 16px;
-    line-height: 24px;
+    margin-left: 14px;
+    line-height: 18px;
 
     strong {
       font-size: 18px;
@@ -37,6 +37,7 @@ export const Profile = styled(Link)`
     a {
       font-size: 14px;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
+      align-self: flex-end;
     }
   }
 `;
@@ -47,6 +48,7 @@ export const Brand = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 32px;
 
   > h1 {
     font-size: 24px;

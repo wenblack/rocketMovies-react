@@ -2,12 +2,12 @@ import { BrowserRouter } from "react-router-dom";
 
 import { AppRoutes } from "./app.routes";
 import { AuthRoutes } from "./auth.routes";
-import { Header } from "../components/Header";
+import { Home } from "../pages/Home";
 
 export function Routes() {
   return (
     <BrowserRouter>
-      <Header />
+      <AuthRoutes></AuthRoutes>
     </BrowserRouter>
   );
 }

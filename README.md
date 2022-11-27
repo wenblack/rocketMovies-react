@@ -28,7 +28,7 @@
 
 <div align="center">
 
-<img alt="Preview" src="thumb.png" /> 
+<img alt="Preview" src="" /> 
 </div>
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
