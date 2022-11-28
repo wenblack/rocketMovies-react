@@ -55,10 +55,3 @@ export const Brand = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK};
   }
 `;
-
-export const Search = styled.div`
-  width: 100%;
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-  margin: 0 64px;
-  max-width: 630px;
-`;

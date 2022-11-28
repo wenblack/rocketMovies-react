@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
-
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+  height: 100vh; ;
 `;
 
 export const Content = styled.div`
@@ -14,7 +12,7 @@ export const Content = styled.div`
   overflow-y: auto;
 `;
 export const NewNote = styled(Link)`
-  background-color: ${({ theme }) => theme.COLORS.ORANGE};
+  background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   display: flex;

@@ -11,6 +11,10 @@ export function Profile() {
         <Link to="/">
           <FiArrowLeft />
         </Link>
+
+        <Link to="/">
+          <a>Voltar</a>
+        </Link>
       </header>
 
       <Form>

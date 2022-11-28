@@ -7,16 +7,20 @@ export const Container = styled.div`
     width: 100%;
     height: 144px;
 
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_HEADER};
 
     display: flex;
+    gap: 8px;
     align-items: center;
-
     padding: 0 124px;
 
     svg {
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
+      color: ${({ theme }) => theme.COLORS.PINK};
       font-size: 24px;
+    }
+    a {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-size: 18px;
     }
   }
 `;
@@ -47,7 +51,7 @@ export const Avatar = styled.div`
     width: 48px;
     height: 48px;
 
-    background-color: ${({ theme }) => theme.COLORS.ORANGE};
+    background-color: ${({ theme }) => theme.COLORS.PINK};
     border-radius: 50%;
 
     display: flex;
@@ -57,7 +61,7 @@ export const Avatar = styled.div`
     position: absolute;
     bottom: 7px;
     right: 7px;
-    
+
     cursor: pointer;
 
     input {
@@ -67,7 +71,7 @@ export const Avatar = styled.div`
     svg {
       width: 20px;
       height: 20px;
-      color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+      color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     }
   }
 `;

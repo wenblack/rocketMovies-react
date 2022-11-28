@@ -8,7 +8,7 @@ import { Header } from "../components/Header";
 export function Routes() {
   return (
     <BrowserRouter>
-      <Header></Header>
+      <AppRoutes></AppRoutes>
     </BrowserRouter>
   );
 }
