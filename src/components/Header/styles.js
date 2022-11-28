@@ -36,7 +36,7 @@ export const Profile = styled(Link)`
     }
     a {
       font-size: 14px;
-      color: ${({ theme }) => theme.COLORS.GRAY_100};
+      color: ${({ theme }) => theme.COLORS.GRAY_300};
       align-self: flex-end;
     }
   }
@@ -58,6 +58,7 @@ export const Brand = styled.div`
 
 export const Search = styled.div`
   width: 100%;
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   margin: 0 64px;
   max-width: 630px;
 `;

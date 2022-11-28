@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  margin: 0 64px;
+  max-width: 630px;
   display: flex;
   align-items: center;
   padding-left: 16px;
-  margin-bottom: 8px;
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   border-radius: 10px;

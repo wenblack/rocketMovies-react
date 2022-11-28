@@ -1,5 +1,5 @@
-import { Container, Profile, Brand, Search } from "./styles";
-import { Input } from "../Input";
+import { Container, Profile, Brand } from "./styles";
+import { Search } from "../Search";
 
 export function Header() {
   return (
@@ -8,9 +8,7 @@ export function Header() {
         <h1>RocketMovies</h1>
       </Brand>
 
-      <Search>
-        <Input placeholder="Pesquisar pelo título" />
-      </Search>
+      <Search placeholder="Pesquisar pelo título" />
 
       <Profile to="/profile">
         <img src="https://github.com/wenblack.png" alt="Foto do usuário" />
