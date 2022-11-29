@@ -3,9 +3,10 @@ import styled from "styled-components"
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  width: 200px;
 
   background-color: ${({ theme, isNew }) =>
-    isNew ? "transparent" : theme.COLORS.BACKGROUND_900};
+    isNew ? "transparent" : theme.COLORS.BACKGROUND_800};
   color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   border: ${({ theme, isNew }) =>
@@ -21,11 +22,11 @@ export const Container = styled.div`
   }
 
   .button-delete {
-    color: ${({ theme }) => theme.COLORS.RED};
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 
   .button-add {
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 
   > input {
@@ -40,7 +41,7 @@ export const Container = styled.div`
     border: none;
 
     &::placeholder {
-      color: ${({ theme }) => theme.COLORS.GRAY_300};
+      color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
 `

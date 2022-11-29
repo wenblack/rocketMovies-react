@@ -23,8 +23,9 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
-  max-width: 550px;
+  max-width: 1137px;
   margin: 38px auto;
+  padding: 0 80px;
 
   > header {
     display: flex;
@@ -36,5 +37,32 @@ export const Form = styled.form`
   a {
     font-size: 20px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
+
+  h1 {
+    margin-top: 24px;
+  }
+`;
+
+export const InputWrapper = styled.div`
+display: flex;
+gap: 40px;
+height: 55px;
+`
+export const DarkButton = styled.button`
+  width: 100%;
+  background-color: #0D0C0F;
+  color: ${({ theme }) => theme.COLORS.PINK};
+
+  height: 56px;
+  border: 0;
+  padding: 0 16px;
+  margin-top: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+
+  margin-bottom: 42px;
+  &:disabled {
+    opacity: 0.5;
   }
 `;

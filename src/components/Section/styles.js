@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 28px 0;
+  margin: 40px 0;
 
   > h2 {
     padding-bottom: 16px;
