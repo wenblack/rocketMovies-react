@@ -11,7 +11,7 @@ export function Header() {
       <Search placeholder="Pesquisar pelo título" />
 
       <Profile to="/profile">
-        <img src="https://github.com/wenblack.png" alt="Foto do usuário" />
+        <img src="https://github.com/wenblack.png" alt="Foto do usuário" to />
 
         <div>
           <strong>Wender Barbosa</strong>
