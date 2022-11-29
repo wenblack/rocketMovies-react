@@ -3,13 +3,16 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh; ;
+  height: 100vh;
 `;
 
 export const Content = styled.div`
   grid-area: content;
   padding: 0 64px;
   overflow-y: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 50px;
 `;
 export const NewNote = styled(Link)`
   background-color: ${({ theme }) => theme.COLORS.PINK};

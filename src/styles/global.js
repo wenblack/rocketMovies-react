@@ -5,6 +5,27 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    ::-webkit-scrollbar {
+    width: thin;
+    height: 100%;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${({ theme }) => theme.COLORS.PINK};
+  }
   }
 
   body {
