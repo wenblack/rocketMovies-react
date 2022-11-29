@@ -1,34 +1,36 @@
 <h1 align="center">
- Rocket Notes
+ Rocket Movies
 </h1>
 
-<p align="center">Aplicação para salvar e gerenciar seus links úteis</p>
+<p align="center">
+Feito para votar e localizar seu filme favorito
+</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wenblack/rocketNotes2">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wenblack/rocketMovies-react">
 
   <a href="https://www.linkedin.com/in/wender-jose-santos-4b1473217/">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Wender%20Barbosaa-gree">
   </a>
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wenblack/rocketNotes2">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wenblack/rocketMovies-react">
   
-  <a href="https://github.com/wenblack/rocketNotes2/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wenblack/rocketNotes2">
+  <a href="https://github.com/wenblack/rocketMovies-react/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wenblack/rocketMovies-react">
   </a>
   
-  <a href="https://github.com/wenblack/rocketNotes2/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/wenblack/rocketNotes2">
+  <a href="https://github.com/wenblack/rocketMovies-react/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wenblack/rocketMovies-react">
   </a>
   
-  <img alt="GitHub" src="https://img.shields.io/github/license/wenblack/rocketNotes2">
+  <img alt="GitHub" src="https://img.shields.io/github/license/wenblack/rocketMovies-react">
 </p>
 
 ---
 
 <div align="center">
 
-<img alt="Preview" src="" /> 
+<img alt="Preview" src="./src/assets/thumb.png" /> 
 </div>
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,7 +42,7 @@
 
 ## 👨🏻‍💻 About the project
 
-- <p style="color: red;">Layout of App to save and manage your links with notes
+- <p style="color: red;">Layout of App to save and manage your Movies
   </p>
 
 ## 🚀 Technologies
@@ -60,7 +62,7 @@ Technologies that I used to develop this web client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/wenblack/rocketNotes2.git && cd rocketNotes2
+$ git clone https://github.com/wenblack/rocketMovies-react.git && cd rocketMovies-react
 ```
 
 **Follow the steps below**
@@ -81,14 +83,14 @@ $ yarn dev
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork wenblack/rocketNotes2
+$ gh repo fork wenblack/rocketMovies-react
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd wenblack/rocketNotes2
+$ git clone your-fork-url && cd wenblack/rocketMovies-react
 
 # Create a branch with your feature
 $ git checkout -b my-feature
